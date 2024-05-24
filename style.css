@@ -11,6 +11,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -144,6 +145,99 @@ a:hover {
 
 .hamburger-icon span:first-child {
   transform: none;
+}
+
+.theme-toggle {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 20px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.theme-toggle:hover {
+  background-color: #ddd;
+}
+
+body.dark-mode .theme-toggle {
+  background-color: #333;
+  border: 1px solid #666;
+  color: #f0f0f0;
+}
+
+body.dark-mode .theme-toggle:hover {
+  background-color: #444;
+}
+
+#desktop-nav .theme-toggle {
+  margin-left: 10px; /* Pushes the button to the far right */
+}
+
+#hamburger-nav .theme-toggle {
+  display: block;
+  margin: 10px auto; /* Centers the button */
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode nav {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+}
+
+body.dark-mode .nav-links a,
+body.dark-mode .menu-links a {
+  color: #e0e0e0;
+}
+
+body.dark-mode .nav-links a:hover,
+body.dark-mode .menu-links a:hover {
+  color: #bb86fc;
+}
+
+body.dark-mode .details-container {
+  background-color: #1e1e1e;
+  border-color: #333333;
+  color: #e0e0e0;
+}
+
+body.dark-mode .btn {
+  background-color: #333333;
+  color: #e0e0e0;
+  border: none;
+}
+
+body.dark-mode .btn:hover {
+  background-color: #444444;
+}
+
+
+body.dark-mode .icon {
+  filter: invert(1);
+}
+
+body.dark-mode .title {
+  color: #bb86fc;
+}
+
+body.dark-mode .experience-sub-title {
+  color: #bb86fc;
+}
+
+body.dark-mode .project-title {
+  color: #bb86fc;
+}
+
+body.dark-mode footer {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
 }
 
 /* SECTIONS */

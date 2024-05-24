@@ -22,8 +22,9 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
-
+    <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()">Dark Mode</button>
   </nav>
+  
   <nav id="hamburger-nav">
     <div class="logo">Ashish Karche</div>
     <div class="hamburger-menu">
@@ -39,7 +40,9 @@
         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
     </div>
+    <button id="theme-toggle-mobile" class="theme-toggle" onclick="toggleTheme()">Dark Mode</button>
   </nav>
+  
   <section id="profile">
     <div class="section__pic-container">
       <img src="./assets/profile-pic.png" alt="Ashish Karche profile picture" />
@@ -49,9 +52,7 @@
       <h1 class="title">Ashish Karche</h1>
       <p class="section__text__p2">Backend Developer</p>
       <div class="btn-container">
-        <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
-          Download CV
-        </button>
+        <button class="btn btn-color-2" onclick="downloadCV()">Download CV</button>
         <button class="btn btn-color-1" onclick="location.href='./#contact'">
           Contact Info
         </button>
@@ -202,7 +203,7 @@
           <div class="article-container">
             <img src="./assets/project-2.jpg" alt="Project 2" class="project-img" />
           </div>
-          <h2 class="experience-sub-title project-title">Document Management System</h2>
+          <h2 class="experience-sub-title project-title">Document Management Site</h2>
           <div class="btn-container">
             <button class="btn btn-color-2 project-btn"
               onclick="location.href='https://github.com/ashishkarche/Document_management_system'">
@@ -218,14 +219,14 @@
           <div class="article-container">
             <img src="./assets/project-3.jpg" alt="Project 3" class="project-img" />
           </div>
-          <h2 class="experience-sub-title project-title">Responsive College WebSite</h2>
+          <h2 class="experience-sub-title project-title">Student Resource website</h2>
           <div class="btn-container">
             <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/ashishkarche/ONset23-webpage'">
+              onclick="location.href='https://github.com/ashishkarche/EndSem_Resource'">
               Github
             </button>
             <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://ashishkarche.github.io/ONset23-webpage/'">
+              onclick="location.href='https://ashishkarche.github.io/EndSem_Resource/'">
               Live Demo
             </button>
           </div>
