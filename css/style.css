@@ -1,0 +1,170 @@
+/* Main Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hide scrollbars but keep scrolling */
+body {
+  overflow: -moz-scrollbars-none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+#theme-toggle {
+  font-size: 1rem;
+}
+
+/* Dark Theme */
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-theme .navbar {
+  background-color: #333333;
+}
+
+body.dark-theme .navbar-light .navbar-brand,
+body.dark-theme .navbar-light .nav-link {
+  color: #ffffff;
+}
+
+body.dark-theme .btn-outline-secondary {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+body.dark-theme .btn-outline-secondary:hover {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+body.dark-theme .bg-light {
+  background-color: #333333 !important;
+}
+
+body.dark-theme .text-dark {
+  color: #ffffff !important;
+}
+
+body.dark-theme .list-group-item {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+body.dark-theme .card {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Profile Section */
+#profile img {
+  max-width: 150px;
+  transition: transform 0.3s;
+}
+
+#profile img:hover {
+  transform: scale(1.05);
+}
+
+#profile p.intro-text {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+#profile h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#profile p.subtitle {
+  font-size: 1.25rem;
+}
+
+#profile .btn {
+  font-size: 1rem;
+}
+
+#profile #linkdin {
+  transition: color 0.3s;
+  color: white;
+}
+
+#profile #linkdin:hover {
+  color: blue;
+}
+
+#profile #github{
+  transition: color 0.3s;
+}
+
+#profile #github:hover {
+  color: white;
+}
+
+/* About Section */
+#about img.about-pic {
+  max-width: 250px;
+}
+
+#about .icon {
+  max-width: 50px;
+}
+
+#about p.about-description {
+  font-size: 1rem;
+}
+
+/* Experience Section */
+#experience h2.experience-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.list-group-item {
+  font-size: 1rem;
+}
+
+/* Projects Section */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.project-card img {
+  transition: transform 0.3s;
+}
+
+.project-card img:hover {
+  transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact img {
+  max-width: 40px;
+}
+
+#contact h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Footer */
+footer p {
+  font-size: 1rem;
+}

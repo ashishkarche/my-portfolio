@@ -1,0 +1,71 @@
+/* Media Queries for Responsive Design */
+
+/* Adjust Navbar and Dark Mode Button for Mobile Devices */
+@media (max-width: 992px) {
+
+    /* Large screens (tablets and below) */
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
+
+    #theme-toggle {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Medium screens (phones and below) */
+    .navbar-nav {
+        margin-top: 0.5rem;
+    }
+
+    .navbar-collapse {
+        padding: 0;
+    }
+
+    #theme-toggle {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+
+    .navbar-toggler {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* Small screens (phones) */
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .nav-link {
+        font-size: 0.875rem;
+    }
+
+    #profile img {
+        max-width: 120px;
+    }
+
+    #profile h1 {
+        font-size: 2rem;
+    }
+
+    #about img.about-pic {
+        max-width: 200px;
+    }
+
+    #contact h2 {
+        font-size: 1.25rem;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+}
