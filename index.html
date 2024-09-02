@@ -17,6 +17,15 @@
 
 <body>
 
+  <div class="loader">
+    <div class="dots">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  
+  
   <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
@@ -83,7 +92,6 @@
                   <img src="./assets/education.png" alt="Education icon" class="icon mb-2" />
                   <h3 class="card-title">Education</h3>
                   <p>B.E Bachelors Degree</p>
-                  <p>Computer Engineering</p>
                 </div>
               </div>
             </div>
@@ -98,33 +106,99 @@
   </section>
 
   <!-- Experience Section -->
-  <section id="experience" class="bg-light py-5">
-    <div class="container">
-      <p class="text-center section-intro">Explore My</p>
-      <h1 class="text-center mb-5 section-title">Experience</h1>
-      <div class="row">
-        <div class="col-md-6">
-          <h2 class="text-center mb-4 experience-title">Frontend Development</h2>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">HTML - Experienced</li>
-            <li class="list-group-item">CSS - Experienced</li>
-            <li class="list-group-item">PHP - Basic</li>
-            <li class="list-group-item">JavaScript - Basic</li>
-            <li class="list-group-item">Node.js - Basic</li>
-          </ul>
+  <!-- Experience Section -->
+<section id="experience" class="py-5">
+  <div class="container">
+    <p class="text-center section-intro">Explore My</p>
+    <h1 class="text-center mb-5 section-title">Experience</h1>
+    <div class="row">
+      <!-- Frontend Development -->
+      <div class="col-md-6">
+        <div class="experience-card">
+          <div class="experience-header">
+            <h2 class="mb-4">Frontend Development</h2>
+          </div>
+          <div class="experience-body">
+            <div class="experience-item">
+              <i class="fas fa-code experience-icon"></i>
+              <div class="experience-info">
+                <h4>HTML</h4>
+                <p>Experienced</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <i class="fas fa-code experience-icon"></i>
+              <div class="experience-info">
+                <h4>CSS</h4>
+                <p>Experienced</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <i class="fas fa-code experience-icon"></i>
+              <div class="experience-info">
+                <h4>PHP</h4>
+                <p>Basic</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <i class="fas fa-code experience-icon"></i>
+              <div class="experience-info">
+                <h4>JavaScript</h4>
+                <p>Basic</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <i class="fas fa-code experience-icon"></i>
+              <div class="experience-info">
+                <h4>Node.js</h4>
+                <p>Basic</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-6">
-          <h2 class="text-center mb-4 experience-title">Backend Development</h2>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Python - Intermediate</li>
-            <li class="list-group-item">Java - Intermediate</li>
-            <li class="list-group-item">C++ - Basic</li>
-            <li class="list-group-item">Git - Intermediate</li>
-          </ul>
+      </div>
+      <!-- Backend Development -->
+      <div class="col-md-6">
+        <div class="experience-card">
+          <div class="experience-header">
+            <h2 class="mb-4">Backend Development</h2>
+          </div>
+          <div class="experience-body">
+            <div class="experience-item">
+              <i class="fas fa-server experience-icon"></i>
+              <div class="experience-info">
+                <h4>Python</h4>
+                <p>Intermediate</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <i class="fas fa-server experience-icon"></i>
+              <div class="experience-info">
+                <h4>Java</h4>
+                <p>Intermediate</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <i class="fas fa-server experience-icon"></i>
+              <div class="experience-info">
+                <h4>C++</h4>
+                <p>Basic</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <i class="fas fa-server experience-icon"></i>
+              <div class="experience-info">
+                <h4>Git</h4>
+                <p>Intermediate</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- Projects Section -->
   <section id="projects" class="py-5">
@@ -137,8 +211,8 @@
             <img src="./assets/project-1.jpg" alt="Project 1" class="card-img-top">
             <div class="card-body text-center">
               <h2 class="card-title">AI-powered ChatBot</h2>
-              <a href="https://github.com/ashishkarche/Ai-powered-Chatbot" class="btn btn-outline-primary me-2">Github</a>
-              <a href="https://ashishkarche.github.io/Ai-powered-Chatbot/" class="btn btn-outline-secondary">Live Demo</a>
+              <a href="https://github.com/ashishkarche/Ai-powered-Chatbot" target="_blank" class="btn btn-outline-primary me-2">Github</a>
+              <a href="https://ashishkarche.github.io/Ai-powered-Chatbot/" target="_blank" class="btn btn-outline-secondary">Live Demo</a>
             </div>
           </div>
         </div>
@@ -147,7 +221,7 @@
             <img src="./assets/project-2.jpg" alt="Project 2" class="card-img-top">
             <div class="card-body text-center">
               <h2 class="card-title">Travel Company Site</h2>
-              <a href="https://github.com/ashishkarche/ShravniTravel"
+              <a href="https://github.com/ashishkarche/ShravniTravel"  target="_blank"
                 class="btn btn-outline-primary me-2">Github</a>
               <a href="https://ashishkarche.github.io/ShravniTravel/" class="btn btn-outline-secondary">Live
                 Demo</a>
@@ -159,8 +233,8 @@
             <img src="./assets/project-3.jpg" alt="Project 3" class="card-img-top">
             <div class="card-body text-center">
               <h2 class="card-title">Secure File App</h2>
-              <a href="https://github.com/ashishkarche/SecureFileApp" class="btn btn-outline-primary me-2">Github</a>
-              <a href="https://drive.google.com/file/d/1MBEdHEOJQJfr-3Dn8EAWMK04_85gy9Zu/view?usp=drive_link" class="btn btn-outline-secondary">Live Demo</a>
+              <a href="https://github.com/ashishkarche/SecureFileApp" target="_blank" class="btn btn-outline-primary me-2">Github</a>
+              <a href="https://drive.google.com/file/d/1MBEdHEOJQJfr-3Dn8EAWMK04_85gy9Zu/view?usp=drive_link" target="_blank" class="btn btn-outline-secondary">Live Demo</a>
             </div>
           </div>
         </div>
@@ -198,11 +272,12 @@
   <!-- Footer -->
   <footer class="text-center py-4">
     <div class="container">
-      <p>&copy; <span id="current-year"></span> Ashish Karche</p>
+      <p>&copy; <span id="current-year"></span> Ashish Portfolio</p>
     </div>
   </footer>
 
   <script src="js/script.js"></script>
+  <script src="js/common.js"></script>
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

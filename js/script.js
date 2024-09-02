@@ -101,6 +101,7 @@ function adjustThemeTogglePosition() {
   }
 }
 
+
 // Handle resize event to adjust button position
 window.addEventListener('resize', adjustThemeTogglePosition);
 document.addEventListener('DOMContentLoaded', adjustThemeTogglePosition);
