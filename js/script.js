@@ -66,7 +66,7 @@ window.onload = function () {
 
 // Function to trigger a CV download
 function downloadCV() {
-  const resumeURL = './assets/Ashish_Resume.pdf'; // Path to the resume PDF
+  const resumeURL = './assets/resume.pdf'; // Path to the resume PDF
   const link = document.createElement('a');
 
   link.href = resumeURL;
